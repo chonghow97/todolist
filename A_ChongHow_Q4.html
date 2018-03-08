@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+	fieldset{
+		width: 40rem;
+		background: skyblue;
+		border:3px solid #000;
+	}
+	legend{
+		background: white;
+		font-weight: bold;
+	}
+
+	ul{
+		list-style: none;
+	}
+	li:first-child{
+		width:6rem;
+	}
+
+	li{
+		float: left;
+		width: 25rem;
+		padding:0.4rem;
+	}
+	#submit{
+		float:right;
+		text-align: right;
+		padding:1rem;
+		width:10%;
+	}
+	input{
+		width:100%;
+	}
+	dt:first-child{
+		font-weight: bold;
+	}
+	</style>
+</head>
+<body>
+		<fieldset>
+			<legend>Personal Information</legend>
+				<ul>
+				<li><label for="name">Name : </label></li>
+				<li><input type="text" id="nametext"></li>
+			</ul>
+			<ul>
+				<li><label for="email">Email : </label></li>
+				<li><input type="email" id="emailtext"></li>
+			</ul>
+			<ul>
+				<li><label for="telephonetext">Telephone : </label></li>
+				<li><input type="text" id="telephonetext" style="width:80%" onkeypress="return event.charCode >= 48 && event.charCode <= 57"> <button onclick="cleartel()">Clear</button></li>
+			</ul>
+			
+			<ul>
+				<li id="submit"><button onclick="generate()" id="wow1">Submit</button></li>
+			</ul>
+		</fieldset>
+		<fieldset id="output">
+			<legend>Output</legend>
+		</fieldset>
+	<script type="text/javascript">
+		function cleartel(){
+			telephonetext.value = null;
+		}
+		function generate() {
+			if(nametext.value =="" || /^[A-Za-z\s]+$/.test(name.value) == false){
+				return alert("invalid name please try again");
+			}
+			if(emailtext.value =="" || isPossiblyValidEmail(emailtext.value) == false){
+				return alert("invalid email please try again");
+			}
+			if(telephonetext.value.length<8 || telephonetext.value.length>10){
+				return alert("invalid phone number please try again");
+			}
+			var dl = document.createElement("dl");	
+			for(var i=0;i<3;i++){
+				var dt = document.createElement("dt");
+				var dd = document.createElement("dd");
+				var info = [nametext.value,"Email","phone.No"];
+				var gg = ["",emailtext.value,telephonetext.value];
+				var text = document.createTextNode(info[i]);
+				var text1 = document.createTextNode(gg[i]);
+				dd.appendChild(text1);
+				dl.appendChild(dt);
+				dt.appendChild(text);
+				dl.appendChild(dd);
+			}
+			output.appendChild(dl); 
+			telephonetext.value = null;
+			nametext.value =null;
+			emailtext.value = null;
+			nametext.focus();
+		}
+		function isPossiblyValidEmail(txt) {
+ 		  return txt.length > 5 && txt.indexOf('@')>0;
+		}
+	</script>
+</body>
+</html>

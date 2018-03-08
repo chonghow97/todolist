@@ -1,0 +1,198 @@
+@font-face
+   font-family: 'myFont'
+   src: url("../Asset/fonts/春联标准行书体.ttf") format("truetype")
+
+*
+	font-family: calibri
+	font-size: 18px
+	padding: 0
+	margin: 0
+	&::selection
+		background: #ED2939
+		color: white
+
+::-webkit-scrollbar 
+    width: 5px
+
+/* Track */
+::-webkit-scrollbar-track 
+    background: rgba(white,.01)
+ 
+/* Handle */
+::-webkit-scrollbar-thumb 
+    background: orange 
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+    background: #D66B28FF 
+
+h1
+	font-size: 21px
+	color: rgba(#FFFF62, .8)
+	text-align: center
+	margin: auto auto auto 1rem
+
+img.sound
+	flex: .5
+	width: 1rem
+	margin: auto
+	cursor: pointer
+	
+
+.list-margin
+	border-radius: .3rem
+	height: 5%
+	display: flex
+	background: rgba(#ED2939, .8)
+	width: 8rem
+	margin: 1rem 0 1rem 0
+
+.container-todo
+	height: 10vh
+	background: rgba(#ED2939, .8)
+	border-radius: 10px 5px 5px 5px
+	padding: 0 .3rem 0 2rem
+	display: flex
+	flex: 1
+
+.clear
+	flex: .12
+	margin: auto 0 auto 1rem
+	height: 2rem
+	background: none
+	color: white
+	border-radius: .4rem
+	border: 1px solid white
+	outline: none
+	cursor: pointer
+	transition: all 0.4s ease-in-out 0s
+	&:hover
+		background:	white
+		color: black
+
+input
+	flex: 0.68
+	height: 5vh
+	margin: auto
+	background: rgba(white, 0.8)
+	border: none
+	padding: 0 1rem
+	color: #CB5D33FF
+
+select
+	flex: 0.15
+	height: 5vh
+	margin: auto
+	border: none
+	background: rgba(white, 0.8)
+	border-radius: 4px
+	font: inherit
+	color: #CB5D33FF
+
+
+img.add
+	margin: auto
+	flex: .06
+	height: 5vh
+	margin: auto;
+	cursor: pointer
+
+button:checked
+	border:none
+
+.container
+	width: 70%
+	margin: auto
+
+body
+	background: url('../Asset/images/background.jpg') no-repeat
+	background-size: cover
+	height: 100vh
+	overflow: hidden
+
+.padding
+	padding: 1rem
+
+.duilian
+	float: left
+	background: url('../Asset/images/ang.jpeg') no-repeat
+	background-size: cover
+	padding: 1rem 1rem
+	font-size: 50rem
+	margin: 4rem 2rem 0 2rem
+
+.right
+	float: right
+
+p.text
+	font-family: 'myFont'
+	letter-spacing: 1rem
+	font-size: 4em
+	writing-mode: vertical-rl
+  	text-orientation: upright
+
+
+.bor
+	padding: 2em .5em
+	border: 2px solid yellow
+
+.height
+	height: 100vh
+
+.result
+	margin: 1rem 1rem 0 1rem
+	height: 65vh
+	overflow: auto
+
+.none-back
+	background: none
+	display: flex
+	flex-wrap: nowrap
+	width: 85%
+
+.list-item
+	height: 8vh
+	display: flex
+	background: rgba(#DC3545, .9)
+	padding: 0 0 0 1rem
+	margin: 1rem
+	&:hover
+		img.close
+			visibility: visible
+
+p.content
+	font-size: 24px
+	margin: auto 0
+	padding: .3rem
+	flex: 0.8
+	text-align: center
+	&:focus
+		background: white
+		outline: none
+		color: black
+
+div#high
+	.list-item
+		color: yellow
+		background: rgba(#DC3545, .9)
+
+div#medium	
+	.list-item
+		color: white
+		background: rgba(#0275D8, .9)
+
+div#low
+	.list-item
+		color: #C1C1C1FF
+		background: rgba(#5BB65B, .9)
+
+p#content:hover
+	cursor: pointer
+
+img.close
+	padding: .3rem .2rem 0 0
+	height: 1%
+	cursor: pointer
+	visibility: hidden
+	position: absolute
+	right: 13.65rem

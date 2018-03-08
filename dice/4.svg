@@ -1,0 +1,16 @@
+<svg id="_4" data-name="4" xmlns="http://www.w3.org/2000/svg" viewBox="903 -5210 442 442">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0);
+        stroke: #000;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_5" data-name="Ellipse 5" cx="50.5" cy="50.5" r="50.5" transform="translate(940 -5174)"/>
+  <path id="Path_7" data-name="Path 7" class="cls-1" d="M74.5,36A38.5,38.5,0,0,0,36,74.5v363A38.5,38.5,0,0,0,74.5,476h363A38.5,38.5,0,0,0,476,437.5V74.5A38.5,38.5,0,0,0,437.5,36Zm48.97,36.03a50.005,50.005,0,1,1-20.2,3.62,50.052,50.052,0,0,1,20.2-3.62Zm268,0a50,50,0,1,1-36.3,14.11,50,50,0,0,1,36.3-14.11Zm-268,268a50,50,0,1,1-36.3,14.11,50,50,0,0,1,36.3-14.11Zm268,0a50,50,0,1,1-36.3,14.11,50,50,0,0,1,36.3-14.11Z" transform="translate(868 -5245)"/>
+  <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="50.5" cy="50.5" r="50.5" transform="translate(1207 -5174)"/>
+  <circle id="Ellipse_5-3" data-name="Ellipse 5" cx="50.5" cy="50.5" r="50.5" transform="translate(940 -4905)"/>
+  <circle id="Ellipse_5-4" data-name="Ellipse 5" cx="50.5" cy="50.5" r="50.5" transform="translate(1207 -4905)"/>
+</svg>

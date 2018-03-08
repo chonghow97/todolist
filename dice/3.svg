@@ -1,0 +1,15 @@
+<svg id="_3" data-name="3" xmlns="http://www.w3.org/2000/svg" viewBox="830 -5132 442 442">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0);
+        stroke: #000;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <path id="Path_7" data-name="Path 7" class="cls-1" d="M74.5,36A38.5,38.5,0,0,0,36,74.5v363A38.5,38.5,0,0,0,74.5,476h363A38.5,38.5,0,0,0,476,437.5V74.5A38.5,38.5,0,0,0,437.5,36ZM391.47,72.03a50,50,0,1,1-36.3,14.11,50,50,0,0,1,36.3-14.11ZM256,206a50,50,0,1,1-50,50A50,50,0,0,1,256,206ZM123.47,340.03a50,50,0,1,1-36.3,14.11,50,50,0,0,1,36.3-14.11Z" transform="translate(795 -5167)"/>
+  <circle id="Ellipse_5" data-name="Ellipse 5" cx="50.5" cy="50.5" r="50.5" transform="translate(1135 -5095)"/>
+  <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="50.5" cy="50.5" r="50.5" transform="translate(1001 -4961)"/>
+  <circle id="Ellipse_5-3" data-name="Ellipse 5" cx="50.5" cy="50.5" r="50.5" transform="translate(867 -4828)"/>
+</svg>

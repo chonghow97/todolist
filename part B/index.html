@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-Do List</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/jpg" href="Asset/images/favicon.jpg">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body id="body">
+	<div class="duilian">
+		<div class="bor">
+			<p class="text">開工大吉</p>
+		</div>
+	</div>
+	<div class="duilian right">
+		<div class="bor">
+			<p class="text">事業順利</p>	
+		</div>		
+	</div>
+	<div class= "container height">
+		<div class="list-margin">
+			<h1>To-Do List</h1>
+			<img class="sound" id="sound" src="Asset/images/sound.svg">
+		</div>
+	<div class="container none-back">
+	<div class="container-todo">
+	<input type="text" name="" placeholder="Happy Chinese New Year" id="title">
+	<select id="priority">
+		<option selected disabled hidden>Priority</option>		
+		<option value="high">High</option>
+		<option value="medium">Medium</option>
+		<option value="low">Low</option>
+	</select>
+	<img class="add" src="Asset/images/add1.svg" onclick="add()" id="add2">
+</div>
+<button class="clear" id="clear">Clear List</button>
+</div>
+<div class="result" id="output">
+		<div class="list-item" id="item">
+		<p class="content" id="content" contenteditable="true"></p>
+		<select id="priority1" onchange="pchange()">
+			<option value="high">High</option>
+			<option value="medium">Medium</option>
+			<option value="low">Low</option>
+		</select>
+	<img class="close" src="Asset/images/close.svg" id="closebox">
+	</div>
+	
+	<div id="high"></div>
+	<div id="medium"></div>
+	<div id="low"></div>
+</div>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-24484 -23745 496 496">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0.4);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="add1" transform="translate(-24484 -23745)">
+    <path id="Path_8" data-name="Path 8" class="cls-1" d="M496,248c0,136.8-111.2,248-248,248S0,384.8,0,248,111.2,0,248,0,496,111.2,496,248Z"/>
+    <g id="Group_3" data-name="Group 3">
+      <path id="Path_11" data-name="Path 11" class="cls-2" d="M352.8,256H143.2c-6.4,0-12-1.6-12-8s5.6-8,12-8H352.8c6.4,0,12,1.6,12,8S359.2,256,352.8,256Z"/>
+      <path id="Path_12" data-name="Path 12" class="cls-2" d="M248,364c-6.4,0-8-4.8-8-12V143.2c0-6.4,1.6-12,8-12s8,4.8,8,12V352.8C256,359.2,254.4,364,248,364Z"/>
+    </g>
+  </g>
+</svg>

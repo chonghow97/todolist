@@ -1,0 +1,13 @@
+<svg id="_1" data-name="1" xmlns="http://www.w3.org/2000/svg" viewBox="102 -4966 442 442">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0);
+        stroke: #000;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_2" data-name="Ellipse 2" cx="50.5" cy="50.5" r="50.5" transform="translate(272 -4796)"/>
+  <path id="Path_7" data-name="Path 7" class="cls-1" d="M74.5,36A38.5,38.5,0,0,0,36,74.5v363A38.5,38.5,0,0,0,74.5,476h363A38.5,38.5,0,0,0,476,437.5V74.5A38.5,38.5,0,0,0,437.5,36H74.5Z" transform="translate(67 -5001)"/>
+</svg>

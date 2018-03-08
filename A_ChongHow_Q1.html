@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question 1</title>
+	<style type="text/css"> table,td,th{border:1px solid black; } table{border-collapse: collapse; width: 20%; } </style>
+</head>
+<body>
+<label>number of set(s) needed: </label>
+<input type="number" id="input">
+<input id="submit" type="submit" onclick="display()">
+<p>Output:</p>
+<div id="output"></div>
+<script type="text/javascript">	
+	input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+			submit.click();
+    }
+});
+
+	function display() {
+		var check = Number(input.value);
+		if(check<1){
+			alert("Number cannot be blank or below 1!","Error");
+			return;
+		}
+
+		output.innerHTML = null;
+		var t4ble = document.createElement("table");
+		var tr = document.createElement("tr");
+		for(var i=0;i<3;i++){
+			title=["a","b","c"];
+			var th = document.createElement("th");
+			var text = document.createTextNode(title[i]);
+			th.appendChild(text); tr.appendChild(th);
+		}
+		t4ble.appendChild(tr);
+		var a=1; var b=0; 
+		for(i=0;i<input.value;i++){
+			var tr = document.createElement("tr");
+		for(j=0;j<3;j++){
+			var td = document.createElement("td");
+			var value = [a,b,b+1]
+			var text= document.createTextNode(value[j]);
+			td.appendChild(text);
+			tr.appendChild(td);
+		}
+		a+=2;
+		b=((a**2)-1)/2;
+		t4ble.appendChild(tr);
+	}
+		output.appendChild(t4ble);
+	}
+</script>
+</body>
+</html>

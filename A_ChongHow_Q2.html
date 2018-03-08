@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question 2</title>
+	<style type="text/css">
+	input[type=color]{
+		border:none;
+		background: none;
+
+	}
+		.header{
+			padding:1rem;
+			text-align: center;
+		}
+		.navigation{
+			margin-top: 0.5rem;
+			padding:5rem 0;
+			width: 33.33%;
+			float: left;
+			text-align: center;
+		}
+		.content{
+			margin-top:0.5rem;
+			width: 65.5%;
+			padding:6rem 0;
+			float:right;
+			text-align: center;
+		}
+		.footer{
+			margin-top: 0.5rem;
+			width:100%;
+			padding: 1rem 0;
+			float:left;
+			text-align: center;
+		}
+		.wtf{
+			margin-top: 1rem;
+			float:left;
+			margin-top:1rem;
+		}
+		ul{
+			list-style: none;
+			float: left;
+		}
+		li{
+			float:left;
+			padding: 0.2rem;
+			width: 5rem;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<p>#header</p>
+	</div>
+	<div class="navigation">
+		<p>#navigation</p>
+	</div>
+	<div class="content">
+		#content
+	</div>
+	<div class="footer">
+		<p>#footer</p>
+	</div>
+	<div class="wtf">
+		<table>
+			<ul>
+				<li><strong>#header</strong></li>
+				<li><input type="color" value="#C4C4C4" id="Header" onchange="change()"></li>
+			</ul>
+			<ul>
+				<li><strong>#navigation</strong></li>
+				<li><input type="color" value="#40BEBD" id="Navigation" onchange="change()"></li>
+			</ul>
+			<ul>
+				<li><strong>#content</strong></li>
+				<li><input type="color" value="#33CB93" id="Content" onchange="change()"></li>
+			</ul>
+			<ul>
+				<li><strong>#footer</strong></li>
+				<li><input type="color" value="#E7DE7B" id="Footer" onchange="change()"></li>
+			</ul>
+		</table>
+	</div>
+	<script type="text/javascript">
+		var header = document.querySelector(".header");
+		header.style.backgroundColor = Header.value;
+		var navigation = document.querySelector(".navigation");
+		navigation.style.backgroundColor = Navigation.value;
+		var content = document.querySelector(".content");
+		content.style.backgroundColor = Content.value;
+		var footer = document.querySelector(".footer");
+		footer.style.backgroundColor = Footer.value;
+		function change() {
+			header.style.backgroundColor = Header.value;
+			navigation.style.backgroundColor = Navigation.value;
+			content.style.backgroundColor = Content.value;
+			footer.style.backgroundColor = Footer.value;
+		}
+		header.addEventListener("click",function(){Header.click();})
+		navigation.addEventListener("click",function(){Navigation.click();})
+		content.addEventListener("click",function(){Content.click();})
+		footer.addEventListener("click",function(){Footer.click();})
+	</script>
+</body>
+</html>
